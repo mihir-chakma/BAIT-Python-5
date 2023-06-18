@@ -8,7 +8,7 @@
 
 * iv) Create objects of the two sub-classes Bulldog and Basenji respectively and call the showDetails() function with appropriate arguments to obtain the following output.
 
-```python
+```
  The Rocky dog is 5 years old
  The Bruno dog is 7 years old
 ```
