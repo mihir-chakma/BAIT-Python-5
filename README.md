@@ -56,6 +56,9 @@ objbs.showDetails()
 
 
 ```
+
+Output:
+
  The Rocky dog is 5 years old
  The Bruno dog is 7 years old
 ```
