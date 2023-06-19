@@ -1,18 +1,16 @@
-# BAIT - Python Problem 5 with Solution
+# BAIT - Problem 5 with Solution in Python
 
-i) Create a class called Dog containing two fields, name and age declared as non-public variables.
+1. Create a class called Dog containing two fields, name and age declared as non-public variables.
 
-ii) Define two setters and two getters with appropriate arguments to set name, age and get name, age respectively. Also, create a function called ```showDetails()``` to display the name and age of dogs.
+2. Define two setters and two getters with appropriate arguments to set name, age and get name, age respectively. Also, create a function called **```showDetails()```** to display the name and age of dogs.
 
-iii) Create two sub-classes of the Dog super class called Bulldog, and Basenji to create objects only.
+3. Create two sub-classes of the Dog super class called Bulldog, and Basenji to create objects only.
 
-iv) Create objects of the two sub-classes Bulldog and Basenji respectively and call the ```showDetails()``` function with appropriate arguments to obtain the following output.
+4. Create objects of the two sub-classes Bulldog and Basenji respectively and call the **```showDetails()```** function with appropriate arguments to obtain the following output.
 
 ## Solution
 
 ```python
-# Q5.py
-
 class Dog:
     __name = None
     __age = 0
@@ -28,8 +26,8 @@ class Dog:
         return self.__age
         
     def showDetails(self):
-        print(f"The {self.getName()} dog is {self.getAge()} years old.")
-        # print(f"The {self.__name} dog is {self.__age} years old.")
+        print(f"The {self.getName()} dog is {self.getAge()} years old")
+        # print(f"The {self.__name} dog is {self.__age} years old")
         
 
 class Bulldog(Dog):
